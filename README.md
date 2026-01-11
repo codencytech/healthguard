@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# 🚑 EMERGI-PAL AI - AI-Powered Emergency Response System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🏆 **Hackathon Project - Alameda Hacks 2026**
 
-## Available Scripts
+### **🌟 Key Features**
+1. **🤖 Intelligent Symptom Analysis** - Powered by Google Gemini AI
+2. **🌍 Location-Aware Emergency Info** - Country-specific emergency numbers
+3. **🚨 AI-Powered Triage** - Smart emergency level assessment
+4. **💬 Interactive AI Chat** - Ask follow-up medical questions
+5. **📱 Responsive Design** - Works on all devices
 
-In the project directory, you can run:
+### **🏆 Multiple Award Potential**
+- **Best Use of AI** - Core feature is Gemini AI integration
+- **Social Good** - Helps save lives in emergencies
+- **Most Startup-Ready** - Clear market need, scalable
+- **Best Real-World Impact** - Immediate practical utility
+- **Best Technical Execution** - Complex AI + medical logic
 
-### `npm start`
+### **🛠 Tech Stack**
+- **Frontend:** React + TypeScript
+- **UI:** TailwindCSS + DaisyUI
+- **AI:** Google Gemini API (Gemini 1.5 Flash)
+- **Deployment:** Vercel
+- **APIs:** Custom emergency database + AI integration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **🚀 Live Demo**
+[Deployed on Vercel: emergi-pal-ai.vercel.app](your-vercel-url)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **🎯 Problem Solved**
+1. **Travelers don't know local emergency numbers**
+2. **People panic and forget what to do in emergencies**
+3. **No intelligent system combines AI + location-specific info**
+4. **Google searches often cause unnecessary panic**
 
-### `npm test`
+### **💡 Solution**
+- **AI analyzes symptoms** → determines emergency level
+- **Location detection** → shows correct emergency numbers
+- **Step-by-step instructions** → reduces panic
+- **Interactive AI chat** → answers follow-up questions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **🔧 Setup Instructions**
+```bash
+# Clone repository
+git clone [your-repo-url]
+cd emergi-pal
 
-### `npm run build`
+# Install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Add Gemini API key
+echo "REACT_APP_GEMINI_API_KEY=your_key_here" > .env
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run development server
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Build for production
+npm run build
